@@ -2,7 +2,7 @@ import React from "react";
 import Menu from "../public/icons/menu.png";
 import Logo from "../public/icons/logo.png";
 import Search from "../public/icons/search.png";
-import Profile from "../public/icons/profile.png";
+import Profile from "../public/icons/Profile.png";
 import Notif from "../public/icons/notification.png";
 import Image from "next/image";
 // Redux stuff
