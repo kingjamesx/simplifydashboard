@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card = ({ text, img, location }) => {
   return (
-    <section className="bg-white rounded p-4 w-full md:w-1/3 lg:w-[21%]">
+    <section className="bg-white rounded mt-4 md:mt-1 p-4 w-full md:w-1/3 lg:w-[21%]">
       <div className="flex items-center gap-2">
         <span>
           <Image src={img} alt="transaction icon" />

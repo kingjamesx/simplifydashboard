@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <div
           className={`${
             state
-              ? "fixed h-full overflow-y-scroll bg-white w-[70%]"
+              ? "fixed h-full overflow-y-scroll bg-white w-[70%] pb-28"
               : "hidden "
           }  w-[18%] p-5  lg:block `}
         >
