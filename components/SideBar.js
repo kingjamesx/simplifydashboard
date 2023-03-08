@@ -15,7 +15,7 @@ const SideBar = () => {
     }
   };
   return (
-    <div>
+    <div className="pb-10">
       <p className="text-[#1D242D] font-bold">POS Monitoring</p>
       <ul>
         {data.map((item) => {
@@ -47,7 +47,7 @@ export const List = ({ icon, title, submenu }) => {
   };
   return (
     <>
-      <div onClick={handleOpen} className="flex items-center gap-2">
+      <div onClick={handleOpen} className="flex items-center gap-2.5">
         <span>
           <Image src={icon} alt={title} />
         </span>

@@ -31,7 +31,7 @@ export default function Home() {
             </span>
           </span>
         </header>
-        <section className="flex gap-4 items-center mt-10 flex-wrap justify-center lg:justify-start">
+        <section className="flex gap-7 md:gap-4 items-center mt-10 flex-wrap justify-center lg:justify-start">
           <Card
             text="Top Location by Value"
             location="Ikeja - 197M"
